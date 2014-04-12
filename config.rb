@@ -1,4 +1,13 @@
 ###
+# Settings
+###
+
+set :site_url, "http://www.example.com"
+set :site_title, "Bootstrap starter template 101"
+set :site_keywords, "bootstrap, template"
+set :site_description, "Lorem ipsum"
+
+###
 # Compass
 ###
 
