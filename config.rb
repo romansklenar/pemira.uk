@@ -53,6 +53,14 @@ set :js_dir,     'assets/javascripts'
 set :images_dir, 'assets/images'
 set :fonts_dir,  'assets/fonts'
 
+# Directories Settings
+set :partials_dir, 'partials'
+set :helpers_dir,  'helpers'
+set :data_dir,     'data'
+
+# Pretty URLs
+activate :directory_indexes
+
 # Add bower's directory to sprockets asset path
 after_configuration do
   bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))

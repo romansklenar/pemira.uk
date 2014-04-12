@@ -1,5 +1,8 @@
 {
-  "name": "middleman",
-  "version": "0.0.0",
-  "dependencies": {}
+  "name": "Middleman App",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": ">= 1.11.0",
+    "holderjs": "2.3.2"
+  }
 }
