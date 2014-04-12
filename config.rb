@@ -36,9 +36,9 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  activate :livereload
+end
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -47,11 +47,11 @@
 #   end
 # end
 
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'images'
+# Asset Settings
+set :css_dir,    'assets/stylesheets'
+set :js_dir,     'assets/javascripts'
+set :images_dir, 'assets/images'
+set :fonts_dir,  'assets/fonts'
 
 # Add bower's directory to sprockets asset path
 after_configuration do
