@@ -18,6 +18,8 @@ html
 
   body
     = partial "header"
-    = yield
+    #content.container
+      h1 = current_page.data.title
+      = yield
     = partial "footer"
     = javascript_include_tag "all"
