@@ -3,7 +3,7 @@ module NavigationHelper
     html_options, condition, options = condition, options, name if block_given?
     options ||= {}
 
-    path = options.start_with?('/') ? options[1..-1] : options
+    path = options.is_a?(String) && options.start_with?('/') ? options[1..-1] : options
     if condition || (condition.nil? && current_page.path == path)
       html_options ||= { }
       html_options[:class] = '' unless html_options[:class]

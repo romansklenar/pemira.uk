@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "jquery": ">= 1.11.0",
-    "holderjs": "2.3.2"
+    "holderjs": "2.3.2",
+    "bootswatch-scss" : "3.0.3"
   }
 }

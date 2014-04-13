@@ -2,40 +2,10 @@
 # Settings
 ###
 
-set :site_url, "http://www.example.com"
-set :site_title, "Bootstrap starter template 101"
-set :site_keywords, "bootstrap, template"
-set :site_description, "Lorem ipsum"
-
-###
-# Blog settings
-###
-
-# Time.zone = "UTC"
-
-activate :blog do |blog|
-  # This will add a prefix to all links, template references and source paths
-  blog.prefix = "blog"
-
-  blog.permalink = "{year}/{title}.html"
-  # blog.sources = "{year}-{month}-{day}-{title}.html"
-  # blog.taglink = "tags/{tag}.html"
-  blog.layout = "blog"
-  blog.summary_separator = /(READMORE)/
-  blog.summary_length = 500
-  # blog.year_link = "{year}.html"
-  # blog.month_link = "{year}/{month}.html"
-  # blog.day_link = "{year}/{month}/{day}.html"
-  blog.default_extension = ".md"
-
-  # blog.tag_template = "tag.html"
-  # blog.calendar_template = "calendar.html"
-
-  # Enable pagination
-  # blog.paginate = true
-  # blog.per_page = 10
-  # blog.page_link = "page/{num}"
-end
+set :site_url, "http://www.pemira.co.uk"
+set :site_title, "Pemira Jewellery - Handcrafted Jewellery from London"
+set :site_keywords, "beads, beading, seed beads, lentil beads, lentil drop beads, drop beads, czech glass, czech glass bead,  czech pressed glass, necklaces, bracelets, glass pearl, sparkles, rings, earrings, jewelry, jewellery, jewellery London, handcrafted jewellery, hand crafted jewellery, handmade jewellery, hand made jewellery, custom-made jewellery, czech jewellery, jewellery workshop, London jewellery workshops"
+set :site_description, "London based handcrafted jewellery from czech glass"
 
 ###
 # Compass
@@ -138,8 +108,8 @@ configure :build do
 
   # Enable Google Analytics
   activate :google_analytics do |ga|
-    ga.tracking_id = 'UA-4991910-11'
-    ga.domain_name = 'mo-ostrava.cz'
+    ga.tracking_id = 'UA-50943857-1'
+    ga.domain_name = 'pemira.co.uk'
     ga.allow_linker = true
   end
 end

@@ -1,7 +1,7 @@
-ČRS Ostrava | MO Ostrava
-========================
+Pemira Jewellery
+================
 
-This is the [Middleman](http://middlemanapp.com/) source for [Český rybářský svaz Ostrava | Místní organizace Ostrava](mo-ostrava.cz) website.
+This is the [Middleman](http://middlemanapp.com/) source for [Pemira Jewellery](pemira.co.uk) website.
 
 For instructions how to start with Middleman please check its [Getting Started](http://middlemanapp.com/basics/getting-started/) guide.
 
@@ -27,7 +27,7 @@ Setup
 
     $ brew install node
     $ npm install bower
-    $ cd mo-ostrava.cz
+    $ cd pemira
     $ bower install
     $ bundle
 
@@ -38,11 +38,11 @@ Run
     $ bundle exec middleman
     $ open http://0.0.0.0:4567
 
-**Optional:** Instead of running server by `middleman` command every time you can use [Pow](http://pow.cx/) to run website as Rack application under `mo-ostrava.dev` domain.
+**Optional:** Instead of running server by `middleman` command every time you can use [Pow](http://pow.cx/) to run website as Rack application under `pemira.dev` domain.
 
     $ cd ~/.pow
-    $ ln -s ~/Sites/mo-ostrava
-    $ open http://mo-ostrava.dev
+    $ ln -s ~/Sites/pemira
+    $ open http://pemira.dev
 
 Build
 -----
