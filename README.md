@@ -54,4 +54,4 @@ Build
 Deploy
 ------
 
-    $ middleman s3_sync
+    $ bundle exec middleman deploy
