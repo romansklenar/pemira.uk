@@ -6,6 +6,7 @@ html
     = meta_tag 'viewport', "width=device-width, initial-scale=1.0"
     = meta_tag 'description', site_description
     = meta_tag 'keywords', site_keywords
+    = meta_tag 'robots', "noindex, nofollow, noarchive"
 
     = title_tag current_page.data.title || site_title
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
