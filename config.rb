@@ -33,6 +33,9 @@ set :site_description, "Lorem ipsum"
 #   page "/admin/*"
 # end
 
+page "sitemap.xml", layout: false
+page "robots.txt", layout: false
+
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
