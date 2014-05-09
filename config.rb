@@ -78,11 +78,6 @@ page "robots.txt", layout: false
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-# Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
-end
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -113,6 +108,17 @@ after_configuration do
   sprockets.append_path File.join("#{root}", bower_config["directory"])
 end
 
+# Development-specific configuration
+configure :development do
+  # Reload the browser automatically whenever files change
+  activate :livereload
+
+  # Disable Google Analytics
+  activate :google_analytics do |ga|
+    ga.tracking_id = false
+  end
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -129,6 +135,13 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  # Enable Google Analytics
+  activate :google_analytics do |ga|
+    ga.tracking_id = 'UA-4991910-11'
+    ga.domain_name = 'mo-ostrava.cz'
+    ga.allow_linker = true
+  end
 end
 
 # Deployment configuration
