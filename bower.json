@@ -4,6 +4,8 @@
   "dependencies": {
     "jquery": ">= 1.11.0",
     "holderjs": "2.3.2",
-    "bootswatch-scss" : "3.0.3"
+    "bootstrap-sass": "3.0.2",
+    "bootswatch-scss" : "3.0.3",
+    "font-awesome": "4.0.3"
   }
 }
