@@ -2,7 +2,7 @@
 # Settings
 ###
 
-set :site_url, "http://www.pemira.co.uk"
+set :site_url, "http://www.pemira.uk"
 set :site_title, "Pemira Jewellery - Handcrafted Jewellery from London"
 set :site_keywords, "beads, beading, seed beads, lentil beads, lentil drop beads, drop beads, czech glass, czech glass bead,  czech pressed glass, necklaces, bracelets, glass pearl, sparkles, rings, earrings, jewelry, jewellery, jewellery London, handcrafted jewellery, hand crafted jewellery, handmade jewellery, hand made jewellery, custom-made jewellery, czech jewellery, jewellery workshop, London jewellery workshops"
 set :site_description, "London based handcrafted jewellery from czech glass"
@@ -109,7 +109,7 @@ configure :build do
   # Enable Google Analytics
   activate :google_analytics do |ga|
     ga.tracking_id = 'UA-50943857-1'
-    ga.domain_name = 'pemira.co.uk'
+    ga.domain_name = 'pemira.uk'
     ga.allow_linker = true
   end
 end

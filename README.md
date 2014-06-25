@@ -1,7 +1,7 @@
 Pemira Jewellery
 ================
 
-This is the [Middleman](http://middlemanapp.com/) source for [Pemira Jewellery](pemira.co.uk) website.
+This is the [Middleman](http://middlemanapp.com/) source for [Pemira Jewellery](pemira.uk) website.
 
 For instructions how to start with Middleman please check its [Getting Started](http://middlemanapp.com/basics/getting-started/) guide.
 
