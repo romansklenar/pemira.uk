@@ -1,4 +1,4 @@
 # www.robotstxt.org/
 
-Sitemap: http://www.pemira.co.uk/sitemap.xml
+Sitemap: http://www.pemira.uk/sitemap.xml
 User-agent: *
